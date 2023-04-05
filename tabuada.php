@@ -21,7 +21,8 @@
     //echo(" PARA ABRIR COLOQUE ESSE LINK NO GOOGLE: LOCALHOST/PHP-1/tabuada.php");
 
         $valor = $_POST["valor"];
-        
+        $nome = $_POST["name"];
+        echo("Seu nome é $nome");
 
     for($x=1;$x<=10;$x++)
         {
